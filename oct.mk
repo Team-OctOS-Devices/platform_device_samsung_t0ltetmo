@@ -6,7 +6,7 @@ TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
 # Inherit some common oct stuff.
-$(call inherit-product, vendor/oct/config/common_full_phone.mk)
+$(call inherit-product, vendor/oct/config/common_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/t0ltetmo/full_t0ltetmo.mk)
