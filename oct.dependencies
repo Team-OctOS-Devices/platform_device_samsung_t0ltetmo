@@ -15,7 +15,7 @@
     "remote": "ok",
     "repository": "platform_device_samsung_t0lte",
     "target_path": "device/samsung/t0lte",
-    "revision": "WIP"
+    "revision": "kk-4.4"
   },
   {
     "remote": "cm",
