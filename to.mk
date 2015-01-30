@@ -5,15 +5,15 @@ PRODUCT_RELEASE_NAME := t0ltetmo
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
-# Inherit some common oct stuff.
-$(call inherit-product, vendor/oct/config/common_phone.mk)
+# Inherit some common TO stuff.
+$(call inherit-product, vendor/to/config/common_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/t0ltetmo/full_t0ltetmo.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := t0ltetmo
-PRODUCT_NAME := oct_t0ltetmo
+PRODUCT_NAME := to_t0ltetmo
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SGH-T889
 PRODUCT_MANUFACTURER := samsung

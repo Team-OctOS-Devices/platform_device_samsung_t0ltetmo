@@ -3,42 +3,42 @@
     "remote": "cm",
     "repository": "android_device_samsung_smdk4412-common",
     "target_path": "device/samsung/smdk4412-common",
-    "revision": "cm-11.0"
+    "revision": "cm-12.0"
   },
   {
     "remote": "cm",
     "repository": "android_device_samsung_smdk4412-qcom-common",
     "target_path": "device/samsung/smdk4412-qcom-common",
-    "revision": "cm-11.0"
+    "revision": "cm-12.0"
   },
   {
-    "remote": "ok",
+    "remote": "to",
     "repository": "platform_device_samsung_t0lte",
     "target_path": "device/samsung/t0lte",
-    "revision": "kk-4.4"
+    "revision": "to-5.0"
   },
   {
     "remote": "cm",
     "repository": "android_kernel_samsung_smdk4412",
     "target_path": "kernel/samsung/smdk4412",
-    "revision": "cm-11.0"
+    "revision": "cm-12.0"
   },
   {
     "remote": "cm",
     "repository": "android_packages_apps_SamsungServiceMode",
     "target_path": "packages/apps/SamsungServiceMode",
-    "revision": "cm-11.0"
+    "revision": "cm-12.0"
   },
   {
     "remote": "tm",
     "repository": "proprietary_vendor_samsung",
     "target_path": "vendor/samsung",
-    "revision": "cm-11.0"
+    "revision": "cm-12.0"
   },
   {
     "remote": "cm",
     "repository": "android_hardware_samsung",
     "target_path": "hardware/samsung",
-    "revision": "cm-11.0"
+    "revision": "cm-12.0"
   }
 ]

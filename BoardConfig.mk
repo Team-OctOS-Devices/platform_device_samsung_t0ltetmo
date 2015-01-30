@@ -16,10 +16,18 @@
 
 # This variable is set first, so it can be overridden
 # by BoardConfigVendor.mk
--include device/samsung/t0lte/BoardCommonConfig.mk
 -include device/samsung/smdk4412-common/BoardCommonConfig.mk
 -include device/samsung/smdk4412-qcom-common/BoardCommonConfig.mk
+-include device/samsung/t0lte/BoardCommonConfig.mk
 
-# inherit from the proprietary version
--include vendor/samsung/t0lte/BoardConfigVendor.mk
--include vendor/samsung/t0ltetmo/BoardConfigVendor.mk
+# GPS
+BOARD_GPS_SET_PRIVACY := true
+
+# Recovery
+TARGET_RECOVERY_FSTAB := device/samsung/t0ltetmo/rootdir/fstab.smdk4x12
+RECOVERY_FSTAB_VERSION := 2
+BOARD_RECOVERY_SWIPE := true
+
+# assert
+TARGET_OTA_ASSERT_DEVICE := t0ltetmo
+

@@ -21,6 +21,9 @@ DEVICE=t0ltetmo
 
 mkdir -p ../../../vendor/$VENDOR/$DEVICE/proprietary
 
+adb root
+adb wait-for-device
+
 echo "Pulling proprietary files..."
 for FILE in `cat ../$DEVICE/proprietary-files.txt | grep -v ^# | grep -v ^$`; do
     DIR=`dirname $FILE`
@@ -99,4 +102,5 @@ EOF
 
 EOF
 
+./../../../device/samsung/t0lte/extract-files.sh
 ./../../../device/samsung/smdk4412-common/extract-files.sh
